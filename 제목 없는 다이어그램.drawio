@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T06:48:20.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Yo70lbKY5yk4wGoRuZ_m" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T06:50:16.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="uElvkYIwTRB0L4OHbQm3" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
     <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -313,7 +313,7 @@
         <mxCell id="EMXY2AlrHHOvVeRIwP7f-121" value="Invoke Get" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="2460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EMXY2AlrHHOvVeRIwP7f-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMXY2AlrHHOvVeRIwP7f-123" target="EMXY2AlrHHOvVeRIwP7f-149">
+        <mxCell id="EMXY2AlrHHOvVeRIwP7f-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EMXY2AlrHHOvVeRIwP7f-123" target="EMXY2AlrHHOvVeRIwP7f-165">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EMXY2AlrHHOvVeRIwP7f-123" value="Invoke Set" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
@@ -352,11 +352,11 @@
         <mxCell id="EMXY2AlrHHOvVeRIwP7f-147" value="Show / Enable / Update Menu" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="2160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EMXY2AlrHHOvVeRIwP7f-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EMXY2AlrHHOvVeRIwP7f-149" target="EMXY2AlrHHOvVeRIwP7f-104">
+        <mxCell id="EMXY2AlrHHOvVeRIwP7f-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EMXY2AlrHHOvVeRIwP7f-165" target="EMXY2AlrHHOvVeRIwP7f-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMXY2AlrHHOvVeRIwP7f-149" value="vehicleservice&lt;br&gt;&lt;br&gt;mode&lt;br&gt;state" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="460" y="2055" width="80" height="110" as="geometry" />
+        <mxCell id="EMXY2AlrHHOvVeRIwP7f-165" value="settinghmi&lt;br&gt;&lt;br&gt;mode&lt;br&gt;state" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2050" width="80" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
