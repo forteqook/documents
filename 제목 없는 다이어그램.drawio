@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T09:56:10.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="vRTf53K08MHvGmfGwSeX" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T09:58:02.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jwNTvVcb3WxDVJQ8QSCz" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
     <mxGraphModel dx="1595" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1100,7 +1100,7 @@
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-755" value="Check&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="369.92" y="7880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QUn8nC0NJeCR40KC1Bef-3" value="&lt;h1&gt;Multi Events + Single Model&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Valid shows &amp;amp; enable menu, others will remove.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QUn8nC0NJeCR40KC1Bef-3" value="&lt;h1&gt;Multi Events + Single Model&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Valid shows &amp;amp; enable menu, others will remove.&lt;/p&gt;&lt;p&gt;서로 다른 두 이벤트가 하나의 모델에 묶여 있으나, 두 이벤트의 목적이 다른 경우. 두 이벤트 간 우선순위 없음. My Drive 해당.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="3880" width="1000" height="120" as="geometry" />
         </mxCell>
         <mxCell id="QUn8nC0NJeCR40KC1Bef-67" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QUn8nC0NJeCR40KC1Bef-6" target="QUn8nC0NJeCR40KC1Bef-65">
