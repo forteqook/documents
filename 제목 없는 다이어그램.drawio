@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T02:03:10.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="rv5R3DgcFXIyqc-8ca_Z" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T02:03:34.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="LQ9c_XKqxu15sbLKgke4" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
     <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -54,10 +54,20 @@
           <mxGeometry x="260" y="479" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OEb_cOox7FnWWyNNpJyN-29" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OEb_cOox7FnWWyNNpJyN-31" target="OEb_cOox7FnWWyNNpJyN-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="420" />
+              <mxPoint x="750" y="490" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OEb_cOox7FnWWyNNpJyN-30" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OEb_cOox7FnWWyNNpJyN-31" target="OEb_cOox7FnWWyNNpJyN-37" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="380" />
+              <mxPoint x="750" y="330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OEb_cOox7FnWWyNNpJyN-31" value="Value in&lt;br&gt;valid range?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="360" width="110" height="80" as="geometry" />
