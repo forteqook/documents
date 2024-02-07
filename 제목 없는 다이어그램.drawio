@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T08:00:49.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="y8fM7pYCXWs1wD-A8OGh" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T08:03:54.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="rRkXbjZZ56vNIdFgDDn5" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
-    <mxGraphModel dx="1728" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -961,14 +961,14 @@
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-545" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-478" target="Ny4b2Ch9_81bZD9V1MHP-478">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-552" value="&lt;h1&gt;#2) Brakes&lt;/h1&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;Valid shows &amp;amp; enable menu, others will remove.&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;Option signal is involved.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-552" value="&lt;h1&gt;#2) Brakes&lt;/h1&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;Valid shows &amp;amp; enable menu, others will remove.&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;Option signal is involved, but works in the same event.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="4880" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-682" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-683" target="Ny4b2Ch9_81bZD9V1MHP-700">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-683" value="Event" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="5190" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="5239" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-684" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-687" target="Ny4b2Ch9_81bZD9V1MHP-701">
           <mxGeometry relative="1" as="geometry" />
@@ -984,34 +984,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-687" value="Value in&lt;br&gt;valid range?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="5071" width="110" height="80" as="geometry" />
+          <mxGeometry x="540" y="5120" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-688" value="Show&lt;br&gt;Enable&lt;br&gt;State" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="739.92" y="5081" width="120" height="60" as="geometry" />
+          <mxGeometry x="739.92" y="5130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-689" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-690" target="Ny4b2Ch9_81bZD9V1MHP-694">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-690" value="ign1 state changed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="40" y="5331" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-691" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-692">
-          <mxGeometry x="-0.0054" relative="1" as="geometry">
-            <mxPoint x="240" y="5030" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="40" y="5380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-692" value="Pressed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="40" y="5000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-693" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-694" target="Ny4b2Ch9_81bZD9V1MHP-683">
+        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-693" value="type&lt;br&gt;state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-694" target="Ny4b2Ch9_81bZD9V1MHP-683">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-694" value="ccOS get" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="5231" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-695" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-696" target="Ny4b2Ch9_81bZD9V1MHP-703">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="40" y="5280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-696" value="ccOS set" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="240" y="5000" width="120" height="60" as="geometry" />
@@ -1019,8 +1010,8 @@
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-697" value="OK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-700" target="Ny4b2Ch9_81bZD9V1MHP-687">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="5200" />
-              <mxPoint x="520" y="5111" />
+              <mxPoint x="520" y="5249" />
+              <mxPoint x="520" y="5160" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1033,22 +1024,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-700" value="HResult::OK" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="5180" width="110" height="80" as="geometry" />
+          <mxGeometry x="420" y="5229" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-701" value="Remove" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="739.92" y="5190" width="120" height="60" as="geometry" />
+          <mxGeometry x="739.92" y="5239" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-702" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-703" target="Ny4b2Ch9_81bZD9V1MHP-705">
+        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-702" value="type&lt;br&gt;state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-703" target="Ny4b2Ch9_81bZD9V1MHP-705">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-703" value="Response" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="240" y="5091" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="5140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-704" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-705" target="Ny4b2Ch9_81bZD9V1MHP-683">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-704" value="type&lt;br&gt;state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-705" target="Ny4b2Ch9_81bZD9V1MHP-683">
+          <mxGeometry x="-0.2308" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-705" value="ccOS onChanged" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="5151" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="5200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
