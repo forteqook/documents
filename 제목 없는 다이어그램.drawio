@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T03:46:59.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="3z6iEM2PZRKJ5YSFmb7k" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T03:47:40.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="qAIPu5hryZFEiJ-rM6iC" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
-    <mxGraphModel dx="1536" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1358,13 +1358,13 @@
         <mxCell id="6txwbIAtb1hter3c-hfh-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="6txwbIAtb1hter3c-hfh-68" target="6txwbIAtb1hter3c-hfh-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-68" value="state A&lt;br&gt;valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-68" value="state SEA&lt;br&gt;valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="638.17" y="8529.02" width="110.16" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-69" value="Show&lt;br&gt;Enable&lt;br&gt;State A" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-69" value="Show&lt;br&gt;Enable&lt;br&gt;State SEA" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="958.4100000000001" y="8359" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-70" value="Show&lt;br&gt;Enable&lt;br&gt;State B" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-70" value="Show&lt;br&gt;Enable&lt;br&gt;State SEW" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="958.45" y="8449.52" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6txwbIAtb1hter3c-hfh-71" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="6txwbIAtb1hter3c-hfh-73" target="6txwbIAtb1hter3c-hfh-69">
@@ -1426,7 +1426,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-82" value="Event B &amp;amp;&amp;amp; state A&lt;br style=&quot;font-size: 9px;&quot;&gt;Default?" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-82" value="Event SEW&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;state SEA&lt;br style=&quot;font-size: 9px;&quot;&gt;Default?" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="798.41" y="8611" width="110" height="80.5" as="geometry" />
         </mxCell>
         <mxCell id="6txwbIAtb1hter3c-hfh-83" value="Remove" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
