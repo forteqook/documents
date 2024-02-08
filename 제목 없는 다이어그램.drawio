@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T06:29:15.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="eK0rdIvyHPqOMba8KnYy" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T06:30:42.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="UZJq_g_AgJnP9PdNcsyo" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
     <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -814,7 +814,7 @@
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-726" value="&lt;h1&gt;#1) Exit Safety&lt;/h1&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;Valid shows &amp;amp; enable menu, others will remove.&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;Option signal is involved, but works in the same event.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="38.370000000000005" y="7799.5" width="360" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="QUn8nC0NJeCR40KC1Bef-3" value="&lt;h1&gt;Multi Events + Single Model&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Valid shows &amp;amp; enable menu, others will remove.&lt;/p&gt;&lt;p&gt;서로 다른 두 이벤트가 하나의 모델에 묶여 있으나, 두 이벤트의 목적이 다른 경우. 두 이벤트 간 우선순위 없음. My Drive 해당. 메뉴 표시 조건에 서로 AND 조건으로 묶여 있어서, 각 이벤트가 메뉴 미표시 / 표시 가능.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="QUn8nC0NJeCR40KC1Bef-3" value="&lt;h1&gt;Multi Events 3&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;1) 메뉴가 두 개 이상의 이벤트에 등록 되어 있으며, AND 조건으로 처리될 경우. 즉, 하나의 메뉴에 대해 다수의 Single Event 가 우선순위를 가지고 AND 조건으로 등록된 경우.&amp;nbsp;&lt;/p&gt;&lt;p&gt;2) 유효값에 표시, 그 외에 미표시.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="3880" width="1000" height="120" as="geometry" />
         </mxCell>
         <mxCell id="QUn8nC0NJeCR40KC1Bef-67" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QUn8nC0NJeCR40KC1Bef-6" target="QUn8nC0NJeCR40KC1Bef-7" edge="1">
