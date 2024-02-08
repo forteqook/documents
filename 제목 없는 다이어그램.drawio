@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T07:15:57.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="RyZoQgxhvQlAJQiUOOiz" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T07:17:56.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5moT6p_rRu9dpgRPL7jM" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
     <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -685,7 +685,7 @@
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-458" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=classic;startFill=1;dashed=1;" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-420" target="Ny4b2Ch9_81bZD9V1MHP-457" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-479" value="&lt;h1&gt;#2) My Drive&lt;/h1&gt;&lt;p&gt;1) &quot;하차 안전&quot; case 와 다르게,&amp;nbsp; option 과 state 신호 및 이벤트가 명확하게 분리되어 있기 때문에 AND 조건 처리가 가능한 경우. &quot;하차 안전&quot; 은 각각의 이벤트가 option 과 state 를 모두 가지고 있어 두 신호에 대해 우선순위를 따졌지만, &quot;My Drive&quot;의 경우 install 과 state 모두 유효할 때 type 에 따라 표시하도록 설계되어 있어 검증에 용이함.&lt;/p&gt;&lt;p&gt;2)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-479" value="&lt;h1&gt;#2) My Drive&lt;/h1&gt;&lt;p&gt;1) &quot;하차 안전&quot; case 와 다르게,&amp;nbsp; option 과 state 신호 및 이벤트가 명확하게 분리되어 있기 때문에 AND 조건 처리가 가능한 경우.&lt;/p&gt;&lt;p&gt;2)&quot;하차 안전&quot; 은 각각의 이벤트가 option 과 state 를 모두 가지고 있어 두 신호에 대해 우선순위를 따졌지만, &quot;My Drive&quot;의 경우 install 과 state 모두 유효할 때 type 에 따라 표시하도록 설계되어 있어 검증에 용이함.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="38.45" y="8760" width="1121.55" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-484" value="General Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;fontStyle=1" parent="1" vertex="1">
@@ -1123,7 +1123,7 @@
         <mxCell id="SiIQ2wJmepmnZeH06R8p-75" value="Part Installed?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="718.4499999999999" y="8959" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-2" value="Return" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-2" value="None" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1065.1100000000001" y="9060" width="66.67" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6txwbIAtb1hter3c-hfh-3" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SiIQ2wJmepmnZeH06R8p-75" target="6txwbIAtb1hter3c-hfh-2" edge="1">
