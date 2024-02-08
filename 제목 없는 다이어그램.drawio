@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T03:49:55.728Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="iaHVSiFfViDUIUp_ZQbs" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T03:50:40.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="fSMgxHTBogPSM8TJlQ2h" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
     <mxGraphModel dx="1728" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1511,7 +1511,7 @@
         <mxCell id="6txwbIAtb1hter3c-hfh-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6txwbIAtb1hter3c-hfh-105" target="6txwbIAtb1hter3c-hfh-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-105" value="ccOS&lt;br&gt;set" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-105" value="ccOS&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;setStrengthState&lt;br&gt;setKindState&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="40.04" y="9859" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6txwbIAtb1hter3c-hfh-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#004C99;" edge="1" parent="1" source="6txwbIAtb1hter3c-hfh-107" target="6txwbIAtb1hter3c-hfh-111">
