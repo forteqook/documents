@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T06:52:12.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="t0pK3Skes96L7jcn8OpI" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T06:52:59.910Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0Yv5JP3DrCJhzk-t2X_s" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
     <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -811,8 +811,8 @@
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-724" value="Check&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="358.37" y="6120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-726" value="&lt;h1&gt;#1) Exit Safety&lt;/h1&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;1) 두 개의 서로 다른 이벤트가 하나의 메뉴에 Binding 되어있으며, 두 이벤트가 명시하는 기대 동작이 동일하기 때문에 OR 조건으로 동작하는 경우.&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;2) settinghmi 구조 특성 상 event 분기 로직과 각 UI render 로직이 구분되어 있지 않기 때문에 (예 : invalid handler 에서 show(true), enable(false) 호출), &quot;하차 안전&quot; 과 같은 case 의 경우 필요한 로직이 누락되는 경우가 발생하기 쉬움.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="38.37" y="7799.5" width="1041.63" height="120" as="geometry" />
+        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-726" value="&lt;h1&gt;#1) Exit Safety&lt;/h1&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;1) 두 개의 서로 다른 이벤트가 하나의 메뉴에 Binding 되어있으며, 두 이벤트가 명시하는 기대 동작이 동일하기 때문에 OR 조건으로 동작하는 경우.&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;2) settinghmi 구조 특성 상 event 분기 로직과 각 UI render 로직이 구분되어 있지 않기 때문에 (예 : invalid handler 에서 show(true), enable(false) 호출), &quot;하차 안전&quot; 과 같은 case 의 경우 필요한 로직이 누락되는 경우가 발생하기 쉬움.&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;3) 따라서, 아래와 같은 flow 를 참고하여 Test Case 작성 필요.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="38.37" y="7799.5" width="1041.63" height="160.5" as="geometry" />
         </mxCell>
         <mxCell id="QUn8nC0NJeCR40KC1Bef-3" value="&lt;h1&gt;Multi Events 3&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;1) 메뉴가 두 개 이상의 이벤트에 등록 되어 있으며, AND 조건으로 처리될 경우. 즉, 하나의 메뉴에 대해 다수의 Single Event 가 AND 조건으로 등록된 경우.&lt;/p&gt;&lt;p&gt;2) 유효값에 표시, 그 외에 미표시.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="3880" width="1000" height="120" as="geometry" />
