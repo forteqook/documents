@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T06:52:59.910Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0Yv5JP3DrCJhzk-t2X_s" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T06:53:25.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="t-pa6YE249PCiBLD8L6d" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
     <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -995,11 +995,11 @@
         <mxCell id="SiIQ2wJmepmnZeH06R8p-7" value="ign1 state changed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="38.449999999999996" y="9499" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SiIQ2wJmepmnZeH06R8p-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="SiIQ2wJmepmnZeH06R8p-10" target="SiIQ2wJmepmnZeH06R8p-19" edge="1">
+        <mxCell id="Z5sHxqheQspRvGGdzUr2-216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SiIQ2wJmepmnZeH06R8p-10" target="SiIQ2wJmepmnZeH06R8p-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SiIQ2wJmepmnZeH06R8p-10" value="Pressed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="38.41" y="8880" width="120" height="60" as="geometry" />
+          <mxGeometry x="38.489999999999995" y="8979" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SiIQ2wJmepmnZeH06R8p-11" value="OK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="SiIQ2wJmepmnZeH06R8p-13" target="SiIQ2wJmepmnZeH06R8p-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1031,11 +1031,11 @@
         <mxCell id="SiIQ2wJmepmnZeH06R8p-17" value="Response" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="38.41" y="9080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SiIQ2wJmepmnZeH06R8p-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SiIQ2wJmepmnZeH06R8p-19" target="SiIQ2wJmepmnZeH06R8p-17" edge="1">
+        <mxCell id="Z5sHxqheQspRvGGdzUr2-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SiIQ2wJmepmnZeH06R8p-19" target="SiIQ2wJmepmnZeH06R8p-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SiIQ2wJmepmnZeH06R8p-19" value="ccOS&lt;br&gt;setPartState" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="38.41" y="8979" width="120" height="60" as="geometry" />
+          <mxGeometry x="198.41" y="8979" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SiIQ2wJmepmnZeH06R8p-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#004C99;" parent="1" source="SiIQ2wJmepmnZeH06R8p-21" target="SiIQ2wJmepmnZeH06R8p-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
