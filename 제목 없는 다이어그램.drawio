@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T03:45:27.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Nd88dthNA-Uo2eE2SRAz" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T03:46:21.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="6-UmlC2NiWbakHUhqCoz" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
     <mxGraphModel dx="1728" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1187,10 +1187,10 @@
         <mxCell id="6txwbIAtb1hter3c-hfh-21" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="6txwbIAtb1hter3c-hfh-22" target="6txwbIAtb1hter3c-hfh-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-22" value="Event A&lt;br&gt;valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-22" value="Event SEA&lt;br&gt;valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="638.3299999999999" y="8032.88" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-23" value="Show&lt;br&gt;Enable&lt;br&gt;State A" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-23" value="Show&lt;br&gt;Enable&lt;br&gt;SEA" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="958.4100000000001" y="7959.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6txwbIAtb1hter3c-hfh-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#CC6600;" edge="1" parent="1" source="6txwbIAtb1hter3c-hfh-26" target="6txwbIAtb1hter3c-hfh-50">
@@ -1296,10 +1296,10 @@
         <mxCell id="6txwbIAtb1hter3c-hfh-54" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6txwbIAtb1hter3c-hfh-55" target="6txwbIAtb1hter3c-hfh-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-55" value="state B&lt;br&gt;valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-55" value="state SEW&lt;br&gt;valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="638.17" y="8132.38" width="110.16" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-56" value="Show&lt;br&gt;Enable&lt;br&gt;State B" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-56" value="Show&lt;br&gt;Enable&lt;br&gt;SEW" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="958.4100000000001" y="8050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6txwbIAtb1hter3c-hfh-57" value="Storage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
@@ -1401,7 +1401,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6txwbIAtb1hter3c-hfh-77" value="Event A &amp;amp;&amp;amp; state B&lt;br style=&quot;font-size: 9px;&quot;&gt;Default?" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="6txwbIAtb1hter3c-hfh-77" value="Event SEA&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;state SEW&lt;br style=&quot;font-size: 9px;&quot;&gt;Default?" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="798.41" y="8169" width="110" height="80.5" as="geometry" />
         </mxCell>
         <mxCell id="6txwbIAtb1hter3c-hfh-78" value="Remove" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
