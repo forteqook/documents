@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T06:28:36.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4G4rxCQSFJFEEz8QM4ZH" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T06:29:15.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="eK0rdIvyHPqOMba8KnYy" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
     <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -423,7 +423,7 @@
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.502;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-139" target="Ny4b2Ch9_81bZD9V1MHP-226" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-380" value="&lt;h1&gt;Multi Events 2&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;1) 메뉴가 두 개 이상의 이벤트에 등록 되어 있으며, OR 조건으로 처리될 경우. 즉, 하나의 메뉴에 대해 다수의 Single Event 가 우선순위를 가지고 OR 조건으로 등록된 경우.&amp;nbsp;&lt;/p&gt;2) 유효값에 표시 및 활성화, invalid 에 표시 및 비활성화, default 에 미표시" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-380" value="&lt;h1&gt;Multi Events 2&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;1) 메뉴가 두 개 이상의 이벤트에 등록 되어 있으며, OR 조건으로 처리될 경우. 즉, 하나의 메뉴에 대해 다수의 Single Event 가 우선순위를 가지고 OR 조건으로 등록된 경우.&amp;nbsp;&lt;/p&gt;2) 유효값에 표시 및 활성화, invalid 에 표시 및 비활성화, default 에 미표시." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="2760" width="1040" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-438" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-383" target="Ny4b2Ch9_81bZD9V1MHP-417" edge="1">
