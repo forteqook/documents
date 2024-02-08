@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T02:30:01.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0rf8C8Q1toW6zNYlIhn-" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T03:11:53.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="C6jUtNzt7ioCE9u_v7bV" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
-    <mxGraphModel dx="1659" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1383" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1276,7 +1276,7 @@
         <mxCell id="SiIQ2wJmepmnZeH06R8p-2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SiIQ2wJmepmnZeH06R8p-3" target="SiIQ2wJmepmnZeH06R8p-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SiIQ2wJmepmnZeH06R8p-3" value="Event A&lt;br&gt;valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SiIQ2wJmepmnZeH06R8p-3" value="Event state&lt;br&gt;valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="639.88" y="6230" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SiIQ2wJmepmnZeH06R8p-4" value="Show&lt;br&gt;Enable&lt;br&gt;State" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
@@ -1344,13 +1344,18 @@
         <mxCell id="SiIQ2wJmepmnZeH06R8p-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="SiIQ2wJmepmnZeH06R8p-26" target="SiIQ2wJmepmnZeH06R8p-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SiIQ2wJmepmnZeH06R8p-26" value="Event A" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="SiIQ2wJmepmnZeH06R8p-26" value="Event state" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="359.96" y="6329.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SiIQ2wJmepmnZeH06R8p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="SiIQ2wJmepmnZeH06R8p-28" target="SiIQ2wJmepmnZeH06R8p-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SiIQ2wJmepmnZeH06R8p-28" value="Event B" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="SiIQ2wJmepmnZeH06R8p-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="SiIQ2wJmepmnZeH06R8p-28" target="SiIQ2wJmepmnZeH06R8p-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="6600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SiIQ2wJmepmnZeH06R8p-28" value="Event type" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="6649.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SiIQ2wJmepmnZeH06R8p-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#CC6600;" edge="1" parent="1" source="SiIQ2wJmepmnZeH06R8p-30" target="SiIQ2wJmepmnZeH06R8p-26">
@@ -1413,7 +1418,7 @@
           <mxGeometry x="759.8800000000001" y="6159" width="110.16" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SiIQ2wJmepmnZeH06R8p-62" value="Storage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="359.96000000000004" y="6460" width="120" height="120" as="geometry" />
+          <mxGeometry x="360.00000000000006" y="6450" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="SiIQ2wJmepmnZeH06R8p-63" value="mPartInstallState[part]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="SiIQ2wJmepmnZeH06R8p-62">
           <mxGeometry y="30" width="120" height="30" as="geometry" />
@@ -1423,6 +1428,12 @@
         </mxCell>
         <mxCell id="SiIQ2wJmepmnZeH06R8p-65" value="mDriveMode2Type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="SiIQ2wJmepmnZeH06R8p-62">
           <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SiIQ2wJmepmnZeH06R8p-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="SiIQ2wJmepmnZeH06R8p-66" target="SiIQ2wJmepmnZeH06R8p-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiIQ2wJmepmnZeH06R8p-66" value="part install&lt;br&gt;signal" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="199.99999999999997" y="6490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
