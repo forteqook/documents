@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T06:20:16.992Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="BTAVBP4AC7BMtokOFRDH" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T06:21:03.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="dPidKhLHkCDEJybVm_gE" version="23.1.1" type="github">
   <diagram name="페이지-1" id="lhg0nr5kzpJ6dLd5DEeZ">
-    <mxGraphModel dx="2440" dy="1315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -198,9 +198,9 @@
           <mxGeometry x="440" y="589" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-60" value="Remove" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="759.92" y="599" width="120" height="60" as="geometry" />
+          <mxGeometry x="759.92" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-61" value="&lt;h1&gt;Single Event + Single Model&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Valid shows &amp;amp; enable menu, others will remove.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Ny4b2Ch9_81bZD9V1MHP-61" value="&lt;h1&gt;Single Event&lt;br&gt;&lt;/h1&gt;&lt;p&gt;유효값이&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ny4b2Ch9_81bZD9V1MHP-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="Ny4b2Ch9_81bZD9V1MHP-63" target="Ny4b2Ch9_81bZD9V1MHP-65" edge="1">
