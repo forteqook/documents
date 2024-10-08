@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="페이지-1" id="gs1mectcEGeimiHJpjWC">
-    <mxGraphModel dx="988" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1481" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,7 +48,7 @@
         </mxCell>
         <mxCell id="NuBGhkhx8Y5m-b2giT-t-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#B3B3B3;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1020" y="1120" as="sourcePoint" />
+            <mxPoint x="1020" y="1600" as="sourcePoint" />
             <mxPoint x="1019.69" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -234,6 +234,122 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NuBGhkhx8Y5m-b2giT-t-52" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Source Sans Pro, Lucida Sans Unicode, Arial, NG&quot; color=&quot;#172b4d&quot;&gt;OperationConditions(Status = &quot;RUNNING&quot;)&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NuBGhkhx8Y5m-b2giT-t-51">
+          <mxGeometry x="-0.1423" y="-1" relative="1" as="geometry">
+            <mxPoint x="60" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-53" value="Performance Timer - FINISH" style="shape=link;html=1;rounded=0;fontSize=13;labelBorderColor=default;labelBackgroundColor=#E6E6E6;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="40" y="1050" as="sourcePoint" />
+            <mxPoint x="1160" y="1050" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1120" as="sourcePoint" />
+            <mxPoint x="1020" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-55" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;div&gt;RecPerformanceTimeList(RecPerformanceTimeList[LAP_NUMBER])&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NuBGhkhx8Y5m-b2giT-t-54">
+          <mxGeometry x="-0.1423" y="-1" relative="1" as="geometry">
+            <mxPoint x="60" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-56" value="Performance Timer - STOP" style="shape=link;html=1;rounded=0;fontSize=13;labelBorderColor=default;labelBackgroundColor=#E6E6E6;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="40" y="1170" as="sourcePoint" />
+            <mxPoint x="1160" y="1170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-84" value="alt" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1210" width="1120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-85" value="&amp;nbsp;[ TBD : Requested by SWRC ]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FF3333;" vertex="1" parent="NuBGhkhx8Y5m-b2giT-t-84">
+          <mxGeometry x="40" width="185" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-89" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="NuBGhkhx8Y5m-b2giT-t-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="39.6400000000001" as="sourcePoint" />
+            <mxPoint x="980" y="39.6400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-90" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;div&gt;TimerReset(ReqTimerStatus = &quot;STOP&quot;)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NuBGhkhx8Y5m-b2giT-t-89">
+          <mxGeometry x="-0.1423" y="-1" relative="1" as="geometry">
+            <mxPoint x="60" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-91" value="Increase LAP_NUMBER" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=9;labelBorderColor=default;labelBackgroundColor=#FFF2CC;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="179.99999999999977" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-92" value="Performance Timer - RESET" style="shape=link;html=1;rounded=0;fontSize=13;labelBorderColor=default;labelBackgroundColor=#E6E6E6;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="40" y="1340" as="sourcePoint" />
+            <mxPoint x="1160" y="1340" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-93" value="alt" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1380" width="1120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-94" value="&amp;nbsp;[ TBD : Requested by SWRC ]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FF3333;" vertex="1" parent="NuBGhkhx8Y5m-b2giT-t-93">
+          <mxGeometry x="40" width="185" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-95" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="NuBGhkhx8Y5m-b2giT-t-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="39.6400000000001" as="sourcePoint" />
+            <mxPoint x="980" y="39.6400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-96" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;div&gt;TimerReset(ReqTimerStatus = &quot;RESET&quot;)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NuBGhkhx8Y5m-b2giT-t-95">
+          <mxGeometry x="-0.1423" y="-1" relative="1" as="geometry">
+            <mxPoint x="60" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-97" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1300" as="sourcePoint" />
+            <mxPoint x="1020" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-98" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;div&gt;OperationConditions(Status = &quot;STOP&quot;)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NuBGhkhx8Y5m-b2giT-t-97">
+          <mxGeometry x="-0.1423" y="-1" relative="1" as="geometry">
+            <mxPoint x="60" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1470" as="sourcePoint" />
+            <mxPoint x="1020" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-100" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;div&gt;OperationConditions(Status = &quot;RESET&quot;)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NuBGhkhx8Y5m-b2giT-t-99">
+          <mxGeometry x="-0.1423" y="-1" relative="1" as="geometry">
+            <mxPoint x="60" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-101" value="&lt;div&gt;Clear All RecLapTimeList and LapTimer Data&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=9;labelBorderColor=default;labelBackgroundColor=#FFF2CC;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="179.99999999999977" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-102" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1520" as="sourcePoint" />
+            <mxPoint x="1020" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-103" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;div&gt;PerformanceTime()&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NuBGhkhx8Y5m-b2giT-t-102">
+          <mxGeometry x="-0.1423" y="-1" relative="1" as="geometry">
+            <mxPoint x="60" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-104" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1550" as="sourcePoint" />
+            <mxPoint x="1020" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuBGhkhx8Y5m-b2giT-t-105" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;div&gt;RecPerformanceTimeList()&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NuBGhkhx8Y5m-b2giT-t-104">
           <mxGeometry x="-0.1423" y="-1" relative="1" as="geometry">
             <mxPoint x="60" y="-11" as="offset" />
           </mxGeometry>
