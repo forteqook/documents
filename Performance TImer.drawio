@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="페이지-1" id="gs1mectcEGeimiHJpjWC">
-    <mxGraphModel dx="2074" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,7 +60,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NuBGhkhx8Y5m-b2giT-t-12" value="loop" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="40" y="360" width="1120" height="1320" as="geometry" />
+          <mxGeometry x="40" y="360" width="1120" height="660" as="geometry" />
         </mxCell>
         <mxCell id="NuBGhkhx8Y5m-b2giT-t-13" value="&amp;nbsp;[ TIMER_RUNNING ]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#000000;" vertex="1" parent="NuBGhkhx8Y5m-b2giT-t-12">
           <mxGeometry x="30" width="110" height="20" as="geometry" />
@@ -212,40 +212,6 @@
         </mxCell>
         <mxCell id="NuBGhkhx8Y5m-b2giT-t-40" value="Exit Loop (TIMER_RUNING)" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=9;labelBorderColor=default;labelBackgroundColor=#FFF2CC;" connectable="0" vertex="1" parent="NuBGhkhx8Y5m-b2giT-t-14">
           <mxGeometry x="99.99999999999977" y="570" as="geometry" />
-        </mxCell>
-        <mxCell id="NuBGhkhx8Y5m-b2giT-t-41" value="alt" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="NuBGhkhx8Y5m-b2giT-t-12">
-          <mxGeometry x="40" y="740" width="1060" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NuBGhkhx8Y5m-b2giT-t-42" value="&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;[ Detect == Brake Pressure&amp;nbsp;]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FF3333;" vertex="1" parent="NuBGhkhx8Y5m-b2giT-t-41">
-          <mxGeometry x="40" width="135" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="NuBGhkhx8Y5m-b2giT-t-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=5;" edge="1" parent="NuBGhkhx8Y5m-b2giT-t-41">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="30" as="sourcePoint" />
-            <mxPoint x="140" y="70" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="80" y="30" />
-              <mxPoint x="80" y="70" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NuBGhkhx8Y5m-b2giT-t-44" value="Disable &quot;Start&quot; Button" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=9;labelBorderColor=default;labelBackgroundColor=#FFF2CC;" connectable="0" vertex="1" parent="NuBGhkhx8Y5m-b2giT-t-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NuBGhkhx8Y5m-b2giT-t-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=5;" edge="1" parent="NuBGhkhx8Y5m-b2giT-t-12">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="840" as="sourcePoint" />
-            <mxPoint x="140" y="880" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="80" y="840" />
-              <mxPoint x="80" y="880" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NuBGhkhx8Y5m-b2giT-t-46" value="New Record is being stored" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=9;labelBorderColor=default;labelBackgroundColor=#FFF2CC;" connectable="0" vertex="1" parent="NuBGhkhx8Y5m-b2giT-t-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="30" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="NuBGhkhx8Y5m-b2giT-t-47" value="Precondition OperationConditions.Status == &quot;READY&quot;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=9;labelBorderColor=default;labelBackgroundColor=#FFF2CC;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="180" y="240" as="geometry" />
